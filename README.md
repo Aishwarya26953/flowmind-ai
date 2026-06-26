@@ -196,6 +196,8 @@ Twitter Cards
 Keyboard Accessibility
 ARIA Labels
 Optimized Metadata
+---
+
 ⚡ Performance Highlights
 Fast Initial Load
 Optimized Asset Delivery
@@ -203,6 +205,8 @@ Component-Based Architecture
 Responsive Image Optimization
 Efficient Rendering
 Lighthouse-Oriented Best Practices
+
+---
 🚀 Deployment
 
 The project is deployment-ready for Vercel.
@@ -210,6 +214,8 @@ The project is deployment-ready for Vercel.
 npm run build
 
 Import the GitHub repository into Vercel and deploy with the default Next.js configuration.
+
+---
 
 📌 Future Enhancements
 Secure Authentication
