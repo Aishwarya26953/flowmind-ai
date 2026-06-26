@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-**Website:** https://your-vercel-link.vercel.app
+**Website:** [https://your-vercel-link.vercel.app](https://flowmind-1aah912a1-mmaaishwarya-1606s-projects.vercel.app/)
 
 **GitHub Repository:** https://github.com/Aishwarya26953/flowmind-ai
 
