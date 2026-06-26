@@ -196,31 +196,5 @@ Optimized for
 * Semantic Structure
 * Optimized Metadata
 
----
 
-# 📸 Screenshots
-
-Add screenshots here after deployment.
-
-Example:
-
-```
-public/screenshots/home.png
-public/screenshots/pricing.png
-public/screenshots/mobile.png
-```
-
----
-
-# 🚀 Deployment
-
-The application can be deployed on:
-
-* Vercel
-* Netlify
-* GitHub Pages (Static Export)
-
-Recommended:
-
-**Vercel**
 
