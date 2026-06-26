@@ -224,20 +224,3 @@ Recommended:
 
 **Vercel**
 
----
-
-# 👩‍💻 Author
-
-**Aishwarya**
-
-Computer Science Engineering Student
-
----
-
-# 📄 License
-
-This project is created for educational purposes and frontend engineering hackathon participation.
-
----
-
-⭐ If you found this project interesting, consider giving it a star on GitHub.
