@@ -1,87 +1,243 @@
-# AIFlow — AI-Powered Data Automation Platform
+# 🚀 FlowMind AI – Intelligent Automation Platform
 
-A production-ready, premium SaaS landing page built for a frontend engineering hackathon.
+> A premium AI-powered SaaS landing page built with **Next.js 15**, **React**, **TypeScript**, and **Tailwind CSS**, designed to showcase modern frontend engineering, responsive UI/UX, and high-performance architecture.
 
-## Tech Stack
+---
 
-- **Next.js 15** (App Router)
-- **React 19**
-- **TypeScript**
-- **Tailwind CSS**
-- **Native CSS animations** (no animation libraries)
+## 🌐 Live Demo
 
-## Features
+**Website:** https://your-vercel-link.vercel.app
 
-- 🎨 Dark-mode premium design (Linear/Stripe quality)
-- ✨ Glassmorphism cards with glow effects
-- 🖱️ Mouse parallax hero section
-- 🔲 Responsive Bento Grid → Accordion (state-preserved across breakpoints)
-- 💰 Dynamic pricing (Monthly/Annual × USD/INR/EUR) — zero unnecessary re-renders
-- 🎭 Auto-scrolling dual-row testimonials
-- 🔽 Animated FAQ accordion
-- 🎯 Full SEO (OpenGraph, Twitter Card, JSON-LD, robots)
-- ♿ Accessible (aria-labels, keyboard nav, semantic HTML)
-- ⚡ Optimized (next/image, next/font, no layout shifts)
+**GitHub Repository:** https://github.com/Aishwarya26953/flowmind-ai
 
-## Quick Start
+---
+
+# 📖 Overview
+
+FlowMind AI is a modern Intelligent Automation Platform that enables businesses to automate workflows, integrate applications, analyze data, and gain AI-driven insights through an elegant, responsive, and high-performance user interface.
+
+This project was developed as a frontend engineering challenge focusing on clean architecture, accessibility, responsive design, smooth animations, and optimized performance.
+
+---
+
+# ✨ Features
+
+* 🎨 Premium Modern Light UI
+* 📱 Fully Responsive Design
+* ⚡ Built with Next.js 15 App Router
+* 🔥 TypeScript Support
+* 🎯 Tailwind CSS Styling
+* 💎 Glassmorphism Components
+* 🧩 Bento Grid Feature Section
+* 📂 Mobile Accordion Layout
+* 💰 Dynamic Pricing Engine
+* 🌍 Multi-Currency Support (INR, USD, EUR)
+* 🔄 Monthly / Annual Billing Toggle
+* 📊 Interactive Dashboard Preview
+* 🤖 AI Workflow Showcase
+* ⭐ Customer Testimonials
+* ❓ FAQ Accordion
+* 🎯 Call-To-Action Section
+* 🔍 SEO Optimized
+* ♿ Accessibility Friendly
+* ⚙️ Optimized Performance
+
+---
+
+# 🛠 Tech Stack
+
+| Technology         | Description        |
+| ------------------ | ------------------ |
+| Next.js 15         | React Framework    |
+| React              | UI Library         |
+| TypeScript         | Type Safety        |
+| Tailwind CSS       | Utility-first CSS  |
+| CSS Animations     | Native Animations  |
+| Web Animations API | Smooth Motion      |
+| Next/Image         | Image Optimization |
+| Next/Font          | Font Optimization  |
+
+---
+
+# 📂 Project Structure
+
+```text
+flowmind-ai/
+│
+├── app/
+├── components/
+├── hooks/
+├── lib/
+├── public/
+├── styles/
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+├── tailwind.config.ts
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/Aishwarya26953/flowmind-ai.git
+```
+
+Move into the project folder
+
+```bash
+cd flowmind-ai
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Start the development server
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Open your browser
 
-## Build for Production
+```
+http://localhost:3000
+```
+
+---
+
+# 📦 Production Build
 
 ```bash
 npm run build
+```
+
+Start production server
+
+```bash
 npm start
 ```
 
-## Deploy to Vercel
+---
 
-```bash
-npx vercel --prod
+# 🎯 Core Sections
+
+* Hero Section
+* Trusted Companies
+* AI Workflow
+* Bento Features
+* Dashboard Preview
+* Dynamic Pricing
+* Testimonials
+* FAQ
+* CTA
+* Footer
+
+---
+
+# 💰 Pricing Engine
+
+The pricing system supports:
+
+* Monthly Billing
+* Annual Billing
+* INR (₹)
+* USD ($)
+* EUR (€)
+
+Prices are calculated dynamically using a configuration object rather than hardcoded values.
+
+---
+
+# 📱 Responsive Design
+
+Optimized for
+
+* Mobile
+* Tablet
+* Laptop
+* Desktop
+
+---
+
+# ⚡ Performance
+
+* Optimized Components
+* Semantic HTML
+* Lazy Loading
+* Responsive Images
+* Fast Initial Load
+* Lighthouse Optimized
+
+---
+
+# ♿ Accessibility
+
+* Semantic HTML
+* Keyboard Navigation
+* ARIA Labels
+* Accessible Forms
+* Proper Focus States
+
+---
+
+# 🔍 SEO
+
+* Meta Tags
+* Open Graph Tags
+* Twitter Cards
+* Semantic Structure
+* Optimized Metadata
+
+---
+
+# 📸 Screenshots
+
+Add screenshots here after deployment.
+
+Example:
+
+```
+public/screenshots/home.png
+public/screenshots/pricing.png
+public/screenshots/mobile.png
 ```
 
-Or connect your GitHub repo at [vercel.com](https://vercel.com).
+---
 
-## Project Structure
+# 🚀 Deployment
 
-```
-aiflow/
-├── app/
-│   ├── globals.css       # Global styles + CSS variables + animations
-│   ├── layout.tsx        # Root layout with metadata + SEO
-│   └── page.tsx          # Main page composition
-├── components/
-│   └── sections/
-│       ├── Navbar.tsx
-│       ├── Hero.tsx
-│       ├── TrustedCompanies.tsx
-│       ├── Features.tsx       # Bento Grid + Accordion
-│       ├── Workflow.tsx
-│       ├── Pricing.tsx        # Dynamic pricing matrix
-│       ├── Testimonials.tsx   # Auto-scroll dual rows
-│       ├── FAQ.tsx
-│       ├── CTA.tsx
-│       └── Footer.tsx
-├── hooks/
-│   └── index.ts          # useMouseParallax, useIntersectionObserver, useMediaQuery, useScrolled
-├── lib/
-│   ├── data.ts            # Testimonials, companies, FAQ data
-│   └── pricing.ts         # Pricing matrix + helpers
-├── public/
-├── tailwind.config.ts
-├── tsconfig.json
-└── package.json
-```
+The application can be deployed on:
 
-## Design Decisions
+* Vercel
+* Netlify
+* GitHub Pages (Static Export)
 
-- **Pricing matrix**: Never hardcoded — driven by `PLANS` object in `lib/pricing.ts`
-- **Annual = Monthly × 12 × 0.8** (20% discount)
-- **Bento → Accordion sync**: `activeId` state shared; hovering a bento card on resize auto-opens matching accordion
-- **No animation libraries**: All animations use pure CSS keyframes + Tailwind
-- **Performance**: `memo()` on `PlanCard` and `PricingControls` prevents unnecessary re-renders on currency/billing switch
+Recommended:
+
+**Vercel**
+
+---
+
+# 👩‍💻 Author
+
+**Aishwarya**
+
+Computer Science Engineering Student
+
+---
+
+# 📄 License
+
+This project is created for educational purposes and frontend engineering hackathon participation.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star on GitHub.
